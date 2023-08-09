@@ -1,5 +1,3 @@
-console.log("Hello from separated file!");
-
 /* 
 Basic JavaScript Data Types:
 1. String:It is used for text, shown between quotation marks
@@ -30,6 +28,22 @@ console.log(name + " " + schoolNumber);
 var schoolName, hasCourse;
 schoolName = "OAKAcademy";
 hasCourse;
+// console.log(
+//   schoolName + " has 35 courses. Does it have any course?" + hasCourse
+// );
+/* 
+console.log("Hello from separated file!");
+*/
+
 console.log(
   schoolName + " has 35 courses. Does it have any course?" + hasCourse
 );
+
+schoolNumber = "twenty two";
+console.log(schoolNumber);
+schoolTeam = "tennis";
+console.log(schoolTeam);
+
+alert(schoolTeam);
+var age = prompt("How old is he?");
+console.log("Alex is " + age + " years old");
