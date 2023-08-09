@@ -65,3 +65,18 @@ distanceToSchool = 6;
 
 var isCloser = distanceToHome > distanceToSchool;
 console.log(isCloser);
+
+// Boolean Logic
+var isLoggedIn = false;
+
+// JS Comparison Operators
+/* 
+> greather than x > 15 
+>= greather than or equal x >= 10
+< less than x < 18
+less than or equal x <= 20
+== Equal to(just look at the value) x == '10'
+!= Not equal x != 5
+=== Equal to (look at both value and sign ) x === '10
+!== Not Equal x !== '10'
+*/
