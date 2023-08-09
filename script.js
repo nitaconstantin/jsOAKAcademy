@@ -69,7 +69,7 @@ console.log(isCloser);
 // Boolean Logic
 var isLoggedIn = false;
 
-// JS Comparison Operators
+// Comparison Operators
 /* 
 > greather than x > 15 
 >= greather than or equal x >= 10
@@ -80,3 +80,15 @@ less than or equal x <= 20
 === Equal to (look at both value and sign ) x === '10
 !== Not Equal x !== '10'
 */
+
+/*
+ Logical Operators
+ && -> AND (x> 7) && (x === '10') false
+ || -> OR (x > y) || (y  < 5 ) true
+ ! -> NOT !( y !== '8) false
+*/
+var a = 15;
+var b = 11;
+
+var result = a > b || (a != "11" && b != "15");
+console.log("Result: ", result);
