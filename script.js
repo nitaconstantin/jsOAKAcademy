@@ -44,6 +44,24 @@ console.log(schoolNumber);
 schoolTeam = "tennis";
 console.log(schoolTeam);
 
-alert(schoolTeam);
-var age = prompt("How old is he?");
-console.log("Alex is " + age + " years old");
+// alert(schoolTeam);
+// var age = prompt("How old is he?");
+// console.log("Alex is " + age + " years old");
+
+///////////////////////////////////Basic Operators////////////////////////////
+var totalDistance, distaceAlex, distanceSam;
+var totalDistance = 20;
+var distanceAlex = totalDistance - 12;
+console.log(distanceAlex);
+var distanceSam = totalDistance - 7;
+console.log(distanceSam);
+console.log(distanceSam * 2);
+console.log(distanceSam / 2);
+
+// Logical Operators:
+var distanceToSchool, distanceToHome;
+distanceToHome = 14;
+distanceToSchool = 6;
+
+var isCloser = distanceToHome > distanceToSchool;
+console.log(isCloser);
