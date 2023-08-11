@@ -184,3 +184,19 @@ if (alexAv > saraAv && alexAv > nancyAv) {
 }
 
 console.log(">>>>", alexAv, saraAv, nancyAv);
+
+console.log(">>>>>> Quiz 2 solution:");
+
+var gradeAlex = (80 + 90 + 95) / 3;
+var gradeSara = (89 + 76 + 98) / 3;
+var gradeNancy = (42, 98, 83) / 3;
+
+if (gradeAlex > gradeSara && gradeAlex > gradeNancy) {
+  console.log("Alex has the highest Average:", gradeAlex);
+} else if (gradeSara > gradeAlex && gradeSara > gradeNancy) {
+  console.log("Sara has the highest Average:", gradeSara);
+} else if (gradeNancy > gradeAlex && gradeNancy > gradeSara) {
+  console.log("Nancy has the highest Average:", gradeNancy);
+} else {
+  console.log("There is a draw");
+}
