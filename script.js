@@ -92,3 +92,26 @@ var b = 11;
 
 var result = a > b || (a != "11" && b != "15");
 console.log("Result: ", result);
+
+// Conditional Statements
+// if, else if, else
+var grade;
+grade = 44;
+if (grade < 47) {
+  console.log("You can not go to next class!");
+} else if (grade > 40 && grade < 45) {
+  console.log("You can not go to next class but you can enter the exam!");
+} else {
+  console.log("You can go to the next class!");
+}
+
+// exercise
+var age = 35;
+
+if (age < 18) {
+  console.log("You can not enter to the cafe");
+} else if (age < 23) {
+  console.log("You can enter to the cafe but you can not drink alcohol");
+} else {
+  console.log("You can enter to the cafe and you can drink the alcohol");
+}
