@@ -149,3 +149,38 @@ switch (day) {
     console.log("I do not know the day");
     break;
 }
+
+// Code quiz 2
+/*
+Alex, Sara and Nancy are in the same class.
+In math class, Alex's grades are 90, 80, 95
+Sara's grades are 89, 76, 98
+Nancy's grades are 42, 98, 83
+
+1.Calculate the average score for each student, then save that value into a variable
+2. Find the highest score and then console.log the student who has the highest average.
+3. Averages may be the same
+
+*/
+var alexGrades = [90, 80, 95];
+var saraGrades = [99, 99, 100];
+var nancyGrades = [99, 98, 100];
+
+var alexAv = (alexGrades[0] + alexGrades[1] + alexGrades[2]) / 3;
+var saraAv = (saraGrades[0] + saraGrades[1] + saraGrades[2]) / 3;
+var nancyAv = (nancyGrades[0] + nancyGrades[1] + nancyGrades[2]) / 3;
+
+highestAv = 0;
+
+if (alexAv > saraAv && alexAv > nancyAv) {
+  highestAv = alexAv;
+  console.log("Highest Average is  Alex: ", highestAv);
+} else if (saraAv > alexAv && saraAv > nancyAv) {
+  highestAv = saraAv;
+  console.log("Highest Average is  Sara: ", highestAv);
+} else {
+  highestAv = nancyAv;
+  console.log("Highest Average is  Nancy: ", highestAv);
+}
+
+console.log(">>>>", alexAv, saraAv, nancyAv);
