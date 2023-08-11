@@ -126,8 +126,26 @@ grade < 45
 var result = grade < 45 ? "failure" : "success";
 console.log(result);
 
-if (grader < 45) {
+if (grade < 45) {
   console.log("failure");
 } else {
   console.log("success");
+}
+
+// Switch Statements
+var day;
+day = "monday";
+switch (day) {
+  case "saturday":
+    console.log("I like saturday");
+    break;
+  case "monday":
+    console.log("i do not like monday");
+    break;
+  case "friday":
+    console.log("I really like friday");
+    break;
+  default:
+    console.log("I do not know the day");
+    break;
 }
