@@ -231,3 +231,27 @@ while (num2 <= 100) {
   }
   num2++;
 }
+
+// While Loops Quiz Solution
+var number = 132;
+
+// while (number <= 148) {
+//   console.log(number);
+//   number += 2;
+// }
+
+while (number <= 148) {
+  if (number % 2 === 0) {
+    console.log(number);
+  }
+  number++;
+}
+console.log("Numbers divizible by 7");
+var number2 = 25;
+
+while (number2 <= 100) {
+  if (number2 % 7 === 0) {
+    console.log("Number2:", number2);
+  }
+  number2++;
+}
