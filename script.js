@@ -279,3 +279,18 @@ for (var loop2 = 25; loop2 <= 100; loop2++) {
     console.log("Loop2:", loop2);
   }
 }
+
+// Continue and Break Statements
+for (var i = 1; i <= 10; i++) {
+  if (i % 2 !== 0) {
+    continue;
+  }
+  console.log(i);
+}
+
+for (var2 = 1; var2 <= 10; var2++) {
+  if (var2 === 5) {
+    break;
+  }
+  console.log("var2 with break:", var2);
+}
