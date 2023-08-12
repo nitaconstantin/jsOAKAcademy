@@ -208,3 +208,26 @@ while (number <= 10) {
   // number++; // number  = number + 1
   number += 2; // number = number + 2
 }
+
+// While Loops Quiz
+/*
+1. Print even numbers from 132 to  148 on the console
+2. Print numbers between 25 and 100 divisible by 7, to the console
+*/
+
+var num1 = 132;
+
+while (num1 <= 148) {
+  if (num1 % 2 == 1) {
+    console.log("Num1:", num1);
+  }
+  num1++;
+}
+
+var num2 = 25;
+while (num2 <= 100) {
+  if (num2 % 7 === 0) {
+    console.log("Num2:", num2);
+  }
+  num2++;
+}
