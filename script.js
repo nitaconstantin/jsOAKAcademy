@@ -255,3 +255,27 @@ while (number2 <= 100) {
   }
   number2++;
 }
+
+// For Loop
+// for(init; condition; step){}
+for (var i = 1; i <= 10; i++) {
+  console.log("Loop:", i);
+}
+
+// For Loop Quiz
+/* 
+1. Print odd numbers from 132 to 148 on the console
+2. Print numbers between 25 and 100, divisible by both 7 and 5 and prin to the console
+*/
+
+for (var loop1 = 132; loop1 <= 148; loop1++) {
+  if (loop1 % 2 === 1) {
+    console.log("Loop1:", loop1);
+  }
+}
+
+for (var loop2 = 25; loop2 <= 100; loop2++) {
+  if (loop2 % 7 === 0 && loop2 % 5 === 0) {
+    console.log("Loop2:", loop2);
+  }
+}
