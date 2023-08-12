@@ -200,3 +200,11 @@ if (gradeAlex > gradeSara && gradeAlex > gradeNancy) {
 } else {
   console.log("There is a draw");
 }
+
+// JavaScript Loops
+var number = 1;
+while (number <= 10) {
+  console.log("Number:", number);
+  // number++; // number  = number + 1
+  number += 2; // number = number + 2
+}
