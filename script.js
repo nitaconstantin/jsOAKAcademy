@@ -353,3 +353,14 @@ function enterCafe(age) {
 }
 
 console.log(enterCafe(17));
+
+// Function Declaration And Expression
+
+function calculateAge(birthYear) {
+  return 2023 - birthYear;
+}
+
+var calculateAge = function (birthYear) {
+  return 2023 - birthYear;
+};
+console.log(("calculateAge from expression:", calculateAge(1988)));
