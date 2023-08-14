@@ -327,3 +327,29 @@ bmi(1.8, 85);
 
 //   }
 // }
+
+//////////////////// Function Return Keyword ////////////////////////
+function cube2(number) {
+  if (number === 25) {
+    return;
+  }
+  return number * number * number;
+}
+var num = cube2(25);
+console.log("this is another console :", num);
+
+function calculateAge(birthYear) {
+  return 2023 - birthYear;
+}
+
+var age = calculateAge(1988);
+console.log("He is ", age, "!");
+
+function enterCafe(age) {
+  if (age < 18) {
+    return "You can not enter the cafe";
+  }
+  return "You can enter the the cafe";
+}
+
+console.log(enterCafe(17));
