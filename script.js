@@ -405,3 +405,59 @@ var addition = function (number) {
 };
 
 console.log(addition(3));
+
+/////////////////// Function Scope /////////////////////
+
+// function sayName() {
+//   var sName = "Sheldon";
+//   console.log(sName);
+// }
+
+// sayName();
+
+// console.log(sName);
+
+// var Name = "Leonard";
+
+// var Count = 18;
+// console.log(Count);
+
+// function writeCount() {
+//   console.log(Count);
+// }
+
+// writeCount();
+
+// function sayHi2() {
+//   var myWord = "Hi there";
+//   console.log(yourWord);
+//   sayBye();
+
+//   function sayBye() {
+//     var yourWord = "bye";
+//     console.log(myWord);
+//   }
+// }
+// sayHi2();
+
+// var sentence = "Hello World!";
+
+// function saySentence() {
+//   sentence = "bye bye!";
+//   console.log(sentence);
+// }
+
+// saySentence();
+// console.log(sentence);
+
+function writeNumber() {
+  var x = 30;
+  console.log(x);
+}
+
+function doSomething() {
+  console.log(x);
+}
+
+writeNumber();
+doSomething();
