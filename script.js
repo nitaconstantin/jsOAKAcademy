@@ -294,3 +294,11 @@ for (var2 = 1; var2 <= 10; var2++) {
   }
   console.log("var2 with break:", var2);
 }
+// JavaScript Functions
+// var name = 'Sara';
+
+function sayHello() {
+  console.log("Hello from Function()");
+}
+
+sayHello();
