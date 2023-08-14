@@ -364,3 +364,34 @@ var calculateAge = function (birthYear) {
   return 2023 - birthYear;
 };
 console.log(("calculateAge from expression:", calculateAge(1988)));
+
+////////////////// Function Quiz ///////////////////////////
+/*
+1. Create a function called 'substraction', this function takes two arguments x and y, 
+then substract one of these arguments from the other and return the result. then console log that result
+*/
+
+function substraction(x, y) {
+  var result = x - y;
+  return result;
+}
+
+var valueSubstraction = substraction(5, 4);
+
+console.log(valueSubstraction);
+
+/* 
+2. Declare a function called 'is Odd', this function is gonna take one argument
+ and it is gonna check if that argument is an 'odd number',
+  then it needs to return a boolean an console that
+*/
+
+function isOdd(arg) {
+  if (arg % 2 === 0) {
+    console.log(arg + " is odd");
+  } else {
+    console.log(arg, "is not odd");
+  }
+}
+
+isOdd(7);
