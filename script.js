@@ -395,3 +395,13 @@ function isOdd(arg) {
 }
 
 isOdd(7);
+
+var addition = function (number) {
+  var res = 0;
+  for (var i = 1; i <= number; i++) {
+    res += i;
+  }
+  return res;
+};
+
+console.log(addition(3));
