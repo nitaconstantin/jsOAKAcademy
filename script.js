@@ -302,3 +302,28 @@ function sayHello() {
 }
 
 sayHello();
+
+// Functions with arguments
+function sayHi(name) {
+  console.log("Hi " + name + "!");
+}
+sayHi("John");
+sayHi("Sara");
+
+function cube(number) {
+  console.log(number * number * number);
+}
+cube(3);
+cube(79);
+
+function bmi(length, weight) {
+  console.log(weight / (length * length));
+}
+
+bmi(1.8, 85);
+
+// function checkUserInfo(email, password){
+//   if(){
+
+//   }
+// }
